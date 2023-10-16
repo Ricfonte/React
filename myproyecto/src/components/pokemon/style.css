@@ -1,0 +1,12 @@
+#numeroDisplay {
+    font-size: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: blue;
+    align-content: center;
+    align-items: center;
+    margin-left:100px;
+}
+
+#btn {
+    background-color: aqua;
+}
