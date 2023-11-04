@@ -1,4 +1,4 @@
-
+import { Component } from "react";
 function PersonCard(props){
     
     return(

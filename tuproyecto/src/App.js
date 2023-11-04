@@ -1,3 +1,4 @@
+import FormularioHooks from "./components/formulariohooks/formulariohooks";
 import TodoJunto from "./components/todojunto/todojunto";
 
 
@@ -5,8 +6,9 @@ function App() {
   return (
     <div> 
       <div>
+        <FormularioHooks></FormularioHooks>
           
-          <TodoJunto></TodoJunto>
+          {/*<TodoJunto></TodoJunto>*/}
         </div>
     </div>
   
