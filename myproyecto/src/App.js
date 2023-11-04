@@ -4,6 +4,7 @@ import FormularioHooks from "./components/formulariohooks/formulariohooks";
 import Pruebas from "./components/pruebasvarias/pruebasvarias";
 /*import { BrowserRouter, Routes, Route } from "react-router-dom";*/
 import PrimerReact from "./components/primerreact/primerreact";
+import NewDos from "./components/newComponent/new";
 
 
 
@@ -11,12 +12,16 @@ import PrimerReact from "./components/primerreact/primerreact";
 function App(props) {
   return (
     <div>
-
       <div>
+        <NewDos></NewDos>
+
+      </div>
+
+      {/*<div>
         <PrimerReact></PrimerReact>
       </div>
  
-      {/*</div>
+      </div>
 
         </div>*/
       /*<div>
