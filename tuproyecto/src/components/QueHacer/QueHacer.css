@@ -1,0 +1,23 @@
+.label-checked{
+    color: red;
+    text-decoration: line-through;
+}
+
+.label-normal{
+    color: black;
+    text-decoration: none;
+}
+
+.boton{
+    background-color: green;
+}
+
+.todo{
+    text-align: center;
+    padding-top: 100px;
+    width: 980 px;
+    height: 980 px;
+    
+
+    
+}
