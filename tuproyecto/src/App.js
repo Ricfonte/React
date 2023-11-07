@@ -2,21 +2,22 @@ import FormularioHooks from "./components/formulariohooks/formulariohooks";
 import TodoJunto from "./components/todojunto/todojunto";
 import Wrapper from "./components/elevacion/wrappers";
 import UserForm from "./components/UserForms/UserForms";
-import QueHaceres from "./components/QueHacer/QueHacer"
-
+import QueHaceres from "./components/QueHacer/QueHacer";
+import PokemonApi from "./components/pokemonApi/pokemonApi";
 
 function App() {
   return (
     <div> 
         <div>
-          <QueHaceres></QueHaceres>
-          
-          
+          <PokemonApi> </PokemonApi>
+          {/*<MasFormulario></MasFormulario>*/}
+          {/*<QueHaceres></QueHaceres>*/}
+         
           {/*<UserForm></UserForm>*/}
-      {/*<div className="App">
-      <Wrapper items={['something', 'sombrero', 'wholesome', 'ransom', 'apple', 'react', 'javascript']}/>*/}
+          {/*<div className="App">
+          <Wrapper items={['something', 'sombrero', 'wholesome', 'ransom', 'apple', 'react', 'javascript']}/>*/}
         
-        {/*<FormularioHooks></FormularioHooks>*/}
+           {/*<FormularioHooks></FormularioHooks>*/}
          {/*<TodoJunto></TodoJunto>*/}
         </div>
     </div>
