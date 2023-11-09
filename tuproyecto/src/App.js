@@ -1,3 +1,5 @@
+import React from 'react';
+
 import FormularioHooks from "./components/formulariohooks/formulariohooks";
 import TodoJunto from "./components/todojunto/todojunto";
 import Wrapper from "./components/elevacion/wrappers";
@@ -6,17 +8,13 @@ import QueHaceres from "./components/QueHacer/QueHacer";
 import PokemonApi from "./components/pokemonApi/pokemonApi";
 import StarWarsApp from "./components/lukeApi/lukeApi";
 import Counter from "./components/pruebas/PruebaUseState";
-import { Usuario, Empresa } from "./components/apiFalsa/apiFalsa";
-
- 
-
-
+import {crearUsuario, crearEmpresa} from "./components/apiFalsa/"
 
 function App() {
   return (
     <div> 
         <div>
-        
+          <crearUsuario></crearUsuario>
         
     
           {/*<StarWarsApp></StarWarsApp>*/}
