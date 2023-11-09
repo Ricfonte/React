@@ -4,12 +4,22 @@ import Wrapper from "./components/elevacion/wrappers";
 import UserForm from "./components/UserForms/UserForms";
 import QueHaceres from "./components/QueHacer/QueHacer";
 import PokemonApi from "./components/pokemonApi/pokemonApi";
+import StarWarsApp from "./components/lukeApi/lukeApi";
+import Counter from "./components/pruebas/PruebaUseState";
+
+ 
+
+
 
 function App() {
   return (
     <div> 
         <div>
-          <PokemonApi> </PokemonApi>
+          <StarWarsApp></StarWarsApp>
+          {/*<CallApiAxios></CallApiAxios>*/}
+          {/*<Counter></Counter>*/}
+          {/*<StarWarsApp></StarWarsApp>*/}
+          {/*<PokemonApi> </PokemonApi>*/}
           {/*<MasFormulario></MasFormulario>*/}
           {/*<QueHaceres></QueHaceres>*/}
          
