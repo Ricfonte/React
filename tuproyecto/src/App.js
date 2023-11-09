@@ -6,6 +6,7 @@ import QueHaceres from "./components/QueHacer/QueHacer";
 import PokemonApi from "./components/pokemonApi/pokemonApi";
 import StarWarsApp from "./components/lukeApi/lukeApi";
 import Counter from "./components/pruebas/PruebaUseState";
+import { Usuario, Empresa } from "./components/apiFalsa/apiFalsa";
 
  
 
@@ -15,7 +16,10 @@ function App() {
   return (
     <div> 
         <div>
-          <StarWarsApp></StarWarsApp>
+        
+        
+    
+          {/*<StarWarsApp></StarWarsApp>*/}
           {/*<CallApiAxios></CallApiAxios>*/}
           {/*<Counter></Counter>*/}
           {/*<StarWarsApp></StarWarsApp>*/}
