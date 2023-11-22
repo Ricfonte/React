@@ -1,0 +1,40 @@
+.page-one {
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .add-pet-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  p {
+    margin-top: 10px; 
+    color: #666;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  

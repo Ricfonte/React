@@ -1,0 +1,74 @@
+.page-three {
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .back-link {
+    color: #333;
+    text-decoration: none;
+    margin-right: 10px; 
+  }
+  
+  .adopt-button {
+    background-color: #ce1f19; 
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+    color: whitesmoke
+  }
+  
+  p {
+    margin-top: 10px;
+    color: #666;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .like-button {
+    background-color: #5cb85c;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50px;
+    margin-left: 30px;
+  }
+
+  .formulario{
+    border: none;
+    
+    
+  }

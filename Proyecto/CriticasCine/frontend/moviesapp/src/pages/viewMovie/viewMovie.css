@@ -1,0 +1,56 @@
+.view-movie-page {
+    margin: 20px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logout-btn {
+    border-radius: 5px;
+    background-color: brown;
+    color: white;
+    margin-right: 10px;
+  }
+  
+  .reviews-container {
+    border: 2px dashed brown;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .reviews-container h2 {
+    margin-bottom: 15px;
+  }
+  
+  .reviews-container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .reviews-container th, .reviews-container td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .reviews-container th {
+    background-color: #f2f2f2;
+  }
+  
+  .delete-movies-container {
+    margin-top: 20px;
+  }
+  
+  .delete-btn {
+    border-radius: 5px;
+    background-color: rgb(190, 4, 4);
+    color: white;
+    height: 25px;
+    font-weight: bold;
+    border-bottom: black;
+
+  }

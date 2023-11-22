@@ -1,0 +1,62 @@
+/* Estilos para MovieListPage */
+
+.movie-list-page {
+    margin: 20px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logout-btn {
+    border-radius: 5px;
+    height: 30px;
+    width: 80px;
+    font-size: 17px;
+    background-color: brown;
+    color: white;
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .movie-list-container {
+    border: 2px dashed black;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .add-movie-btn {
+    background-color: lightblue;
+    border-radius: 5px;
+    font-weight: bold;
+    height: 30px;
+    width: 150px;
+    font-size: 15px;
+    
+  }
+  
+
+  .movie-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .movie-table th, .movie-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .movie-table th {
+    background-color: #f2f2f2;
+  }

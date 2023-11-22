@@ -1,0 +1,67 @@
+.add-movie-page {
+    margin: 20px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logout-btn {
+    border-radius: 5px;
+    background-color: brown;
+    color: white;
+    margin-right: 10px;
+  }
+  
+  .add-movie-form {
+    border: 2px dashed black;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .add-movie-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    display: flex;
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    margin-right: 10px;
+  }
+  
+  .add-movie-form input,
+  .add-movie-form select,
+  .add-movie-form textarea {
+    padding: 8px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 15px;
+  }
+  
+  .submit-btn,
+  .cancel-btn {
+     margin-left: 30px;
+    height: 22px;
+    width: 80px;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    box-shadow: 4px 3px 6px black;
+
+  }
+  
+
+  #rating {
+   width: 160px;
+   margin-left: 30px;
+  }
